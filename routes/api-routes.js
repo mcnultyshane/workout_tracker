@@ -1,5 +1,5 @@
 // import express router
-const router = ("express").Router();
+const router = require('express').Router()
 
 // import workout model
 const db = require("../models/exercise")
