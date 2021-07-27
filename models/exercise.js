@@ -1,4 +1,4 @@
-const mongoos = require('mongooose');
+const mongoose = require('mongooose');
 
 // Mongoose Schema
 const Schema = mongoose.Schema;
@@ -39,7 +39,7 @@ const WorkoutSchema = new Schema({
     }]
 });
 
-// create mongoose model 'workout and apply workout schema to that model
+// create mongoose model 'workout, and apply workout schema to that model
 
 const Workout = mongoose.model('workout', WorkoutSchema);
 
